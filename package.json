@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/401-advanced-javascript-aimurphy/19-socket-q-server#readme",
   "dependencies": {
-    "@nmq/q": "^1.0.4",
+    "@nmq/q": "^1.0.5",
     "dotenv": "^8.0.0",
     "socket.io": "^2.2.0",
     "socketio": "^1.0.0"
