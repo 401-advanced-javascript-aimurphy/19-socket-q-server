@@ -5,8 +5,8 @@
 ### Author: Ai
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-aimurphy/19-socket-q-server/pull/2)
+* [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
@@ -16,22 +16,27 @@
 * [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
-#### `logger.js`
-##### event.on() will be listening for and reacting to any `error` and any `fs.write`.
-
-###### `method`
-This is our listener, we are going to create a handler function to be used as a callback for this function
+#### `server.js`
+manages queues and events. Listens for publisher and passes on to loggers
+#### `netlogger.js`
+subscribes to server and listens for attacks
+#### `dblogger.js`
+subscribes to server and listens for create and delete
+#### `pub.js`
+sends messages to server
 
 
 ### Setup
+You can either run all modules locally or run the loggers and publisher locally and connect to the cloud based server*
 #### `.env` requirements
-* PORT 3000
+* PORT 3333 || https://socketnpme.azurewebsites.net
 
 #### Running the app
-* `node app.js`
-* Endpoint: `/app/`
-  * Runs our fs read and write.
+* *`server.js` is deployed to Microsoft's Azure cloud service
+  * it is temporarily stopped because I am still learning Azure's pricing structure.
+* `node dblogger.js` will run the database logger that listens for 'create' and 'delete' events.
+* `node netlogger.js` will run the network logger that listens for 'attack' events.
+* `node pub.js` publishes the events listened for by net and db loggers.
 
-  
 #### Tests
 
