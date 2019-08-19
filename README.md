@@ -32,7 +32,7 @@ You can either run all modules locally or run the loggers and publisher locally 
 
 #### Running the app
 * *`server.js` is deployed to Microsoft's Azure cloud service
-  * it is temporarily stopped because I am still learning Azure's pricing structure.
+  * it is temporarily stopped because I am still learning Azure's pricing structure. (Racked up $3.41! 😱)
 * `node dblogger.js` will run the database logger that listens for 'create' and 'delete' events.
 * `node netlogger.js` will run the network logger that listens for 'attack' events.
 * `node pub.js` publishes the events listened for by net and db loggers.
