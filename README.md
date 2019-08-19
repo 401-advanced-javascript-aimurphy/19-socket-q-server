@@ -8,12 +8,11 @@
 * [submission PR](https://github.com/401-advanced-javascript-aimurphy/19-socket-q-server/pull/2)
 * [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server)
 * [back-end](https://socketnpme.azurewebsites.net) (azure)
-* [front-end](http://xyz.com) (when applicable)
+* [front-end](http://xyz.com) (not applicable)
 
 #### Documentation
-* [api docs](./) (API servers)
+* [npm docs](https://www.npmjs.com/package/@nmq/q) (Simple Node Message Queue (@nmq))
 * [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
 #### `server.js`
