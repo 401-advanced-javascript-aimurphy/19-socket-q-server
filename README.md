@@ -7,7 +7,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/401-advanced-javascript-aimurphy/19-socket-q-server/pull/2)
 * [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/19-socket-q-server)
-* [back-end](http://xyz.com) (when applicable)
+* [back-end](https://socketnpme.azurewebsites.net) (azure)
 * [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
